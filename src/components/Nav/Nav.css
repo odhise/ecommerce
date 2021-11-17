@@ -34,12 +34,13 @@
 }
 
 .prise{
-    color: red;
+    color:black;
 }
 .right ul a{
     margin: 2em;
     list-style-type: none;
     text-decoration: none;
+    color: rgb(61, 52, 52);
 }
 
 .right ul a:hover{
