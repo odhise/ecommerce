@@ -1,21 +1,27 @@
 .slider-wrapper{
+    display: flex;
     height: 100vh;
     position: relative;
+    overflow: hidden;
 }
 
 
 .slide{
+    width: 100vw;
     margin: 1.5em 0;
     display: flex;
     color: white;
     height: 80%;
+    flex:  0 0 100vw;
+    transition:all 1.5s ease;
+
+
     
 }
 .slide-image{
     flex:1;
 }
 .slide-content{
-    background-color: rgb(114, 114, 108);
     flex:1;
     display: flex;
     align-items: center;
@@ -50,11 +56,12 @@
     height: 50px;
     margin: 0 2em;
     width: 50px;
-    border: 2px solid grey;
+    cursor: pointer;
     border-radius: 2em;
     background-color: rgb(255, 255, 255);
     position: absolute;
     top: 35%;
+    z-index: 2;
     
 
 

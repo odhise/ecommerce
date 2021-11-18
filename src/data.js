@@ -4,6 +4,7 @@ export const slides=[
         img:"/images/pexels-gustavo.jpg",
         title:"Holiday Offers",
         desc:"Grab your December Festive Offer",
+        bg:"#FFDEFA"
 
     },
 
@@ -12,6 +13,7 @@ export const slides=[
         img:"/images/pexels-anthony.jpg",
         title:"New Arrivals",
         desc:"Order Your new Products on time we load our store you are all welcome",
+        bg:"#CDF0EA"
 },
 
 
@@ -20,6 +22,7 @@ export const slides=[
         img:"/images/pexels-laura-james.jpg",
         title:"Clearance Sales",
         desc:"Get your products  at affordable prices before we clear our store",
+        bg:"#E99497"
 
 
 
