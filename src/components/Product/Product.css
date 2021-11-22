@@ -1,0 +1,30 @@
+.img-container{
+    position: relative;
+    margin: 1em;
+}
+.items-price{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50% , -50%);
+border-radius: 50%;
+height: 200px;
+width: 200px;
+background-color: cornsilk;
+z-index: -1;
+}
+
+.img-container img {
+    width: 100%;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width:100% ;
+    height: 100%;
+    top: 0;
+    z-index: 1;
+gap: 1em;
+}
