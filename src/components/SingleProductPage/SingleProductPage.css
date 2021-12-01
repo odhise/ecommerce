@@ -1,0 +1,113 @@
+.Market-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:rgb(245, 238, 238);
+    margin-top: 1em;
+
+
+}
+.Market-container img{
+    width: 800px;
+    margin: 0 1em;
+}
+.Market-container h3{
+    color: black;
+    font-size: 2rem;
+}
+.Market-container p{
+    font-size: 1.5rem;
+}
+
+.select{
+    display: flex;
+}
+.checkout{
+    padding: 2em;
+    margin: 1em 0;
+}
+.paragraph{
+    color:cadetblue;
+    font-weight: bold;
+}
+.text-contents{
+    display: flex;
+    gap: 2em;
+    
+}
+.favor{
+    color: cadetblue;
+    margin-top: 0.7em;
+}
+
+.text{
+    display: flex;
+    border: 2px solid grey;
+    border-radius: 50%;
+    padding: 2em;
+    background-color: maroon;
+    cursor: pointer;
+    
+}
+
+.list-type{
+    background-color: #388A8A;
+    display: flex;
+    border: 2px solid grey;
+    border-radius: 50% ;
+
+}
+.text-2{
+    background-color:yellow;
+    display: flex;
+    border: 2px solid grey;
+    border-radius: 50%;
+    padding: 2em;
+    cursor: pointer;
+}
+.text-3{
+    display: flex;
+    border: 2px solid grey;
+    border-radius: 50%;
+    padding: 2em;
+    background-color: #388A8A;
+    cursor: pointer;
+}
+
+.placeholder{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+
+}
+.quantity-btn{
+    display: flex;
+align-items: center;
+
+}
+
+.placeholder  p{
+    text-align: center;
+    padding: .2em 1em;
+}
+.number{
+    border: 1px solid grey;
+    border-radius: 2px;
+}
+.add{
+    display: flex;
+    margin:0  2em;
+    cursor: pointer;
+    
+}
+.add button{
+    padding: 1em 2em;
+    margin: 0 1em;
+}
+.add p{
+    color: cadetblue;
+}

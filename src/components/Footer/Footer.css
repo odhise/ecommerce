@@ -1,0 +1,99 @@
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #EFEAEA;
+    margin-top: 2em;
+    padding: 2em;
+
+}
+.footer-container h1{
+    font-size: 3rem;
+}
+.footer-container p{
+    font-size: 1.5rem;
+
+}
+.footer-container ul li{
+    list-style-type: none;
+     margin: .5em 0;
+     font-size: 1.5rem;
+}
+.contact-point{
+    flex: 1;
+    margin: 0 1em;
+     
+}
+.contact-point h3{
+    font-size: 2rem;
+}
+.contact-point div{
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+    
+
+}
+.Enterprise{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.icon-footer{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    color: white;
+    margin: 2em 0;
+
+}
+.icon-footer div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+
+}
+.icon-footer a{
+    color: white;
+}
+.facebook{
+    background-color: blue;
+}
+.instagram{
+    background-color: red;
+}
+.pinterest{
+    background-color: red;
+}
+.twitter{
+    background-color:#4B9CF0;
+    color: white;
+}
+.location-link{
+    flex: 1;
+}
+.cart{
+    margin-top: 3em;
+    flex: 1;
+}
+.bottom-link{
+    background-color: #494545;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    
+}
+.payment-icon{
+    width: 100px;
+    height: 100px;
+}
+.content-payment img{
+    width: 100%;
+}
+.content-payment{
+    gap: 2em;
+}

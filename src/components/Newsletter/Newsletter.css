@@ -1,0 +1,40 @@
+.text-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    background-color: #FFFFFF;
+}
+.text-content h1{
+    font-size: 3rem;
+}
+
+.text-content p{
+    font-size: 2rem;
+    width: 55%;
+    text-align: center;
+    margin: 0 auto;
+}
+.text-input{
+    display: flex;
+    align-items: center;
+justify-content: center;
+}
+.text-input input{
+    width: 800px;
+    padding:1em  10em;
+    border: none;
+    border: 2px  solid  #3B9493;
+    
+    
+}
+
+.text-input  button{
+    padding:.7em 1em;
+    background-color: #3B9493;
+    color: white;
+    border: none;
+    align-items: center;
+
+}

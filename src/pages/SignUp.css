@@ -1,0 +1,60 @@
+.signup-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #53B4F2;
+    width: 100%;
+
+
+}
+.signup-content h2{
+    color:black;
+    font-size: 3rem;
+}
+.signup-content label{
+    color:black;
+    font-size: 2rem;
+}
+.signup-content input{
+    display: flex;
+    align-items: center;
+    padding: 1em  4em;
+    margin: 1em  1em;
+    font-size: 1rem;
+    color: teal;
+}
+.terms{
+    display: flex;
+    align-items: center;
+    gap: .8em;
+    
+}
+.terms p{
+    font-size: 1.5rem;
+    color: black;
+}
+.sign-in{
+    display: flex;
+    gap: 1em;
+    margin-top: 1em;
+}
+.sign-in p{
+    font-size: 1.5rem;
+    color: black;
+}
+.create{
+    padding: 1em  2em;
+    cursor: pointer;
+}
+.get{
+    padding: 1em  2em;
+    margin-bottom: 1em;
+    cursor: pointer;
+
+}.get a{
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+

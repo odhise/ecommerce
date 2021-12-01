@@ -1,24 +1,26 @@
 import React from "react" 
 import "./Product.css"
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import AddShoppingCartOutlinedIcon from '@mui/icons-material/AddShoppingCartOutlined';
 import SearchIcon from '@mui/icons-material/Search';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 const Product=({item})=>{
     return(
         <div className="img-container">
+            <div>
             <img src={item.img} />
+            </div>
             <div className="items-price">
                 
             </div>
 
                 <div className="icons">
-                <div>
-            <ShoppingCartIcon />
+                <div className="icon-img">
+            < AddShoppingCartOutlinedIcon />
             </div>
-            <div>
+            <div className="icon-img">
            < SearchIcon />
            </div>
-           <div>
+           <div className="icon-img">
            <FavoriteBorderIcon />
            </div>
                 </div>

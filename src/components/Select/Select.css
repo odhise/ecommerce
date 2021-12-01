@@ -1,0 +1,43 @@
+
+.filter-product{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    
+  }
+  .h1{
+      margin: 0 2em;
+      padding: 1em 0;
+      font-size: 3rem;
+  }
+  .filter-product select{
+      padding: .5em .5em;
+      background-color: #3B9493;
+      color: white;
+      font-size: 1.5rem;
+      text-align: center;
+      margin: 0 1em;
+  }
+  .filter-product h3{
+      font-size: 2rem;
+      color: red;
+  }
+  
+  .size, .color{
+      display: flex;
+      align-items: center;
+      gap:1em;
+      justify-content: space-between;
+
+
+  }
+  .filter-choice{
+      display: flex;
+  }
+  .price{
+      display: flex;
+  }
