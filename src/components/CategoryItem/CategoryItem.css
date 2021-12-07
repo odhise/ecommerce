@@ -49,3 +49,18 @@ height: 100vh;
     
     }
 }
+
+
+
+@media (max-width:414px),(max-width:810px){
+    .category-info h1{
+        font-size: .8rem;
+    }
+    .category-info  button{
+        padding: .8em  1em ;
+        width: 100%;
+    }
+    .category-item  img{
+        width: 100%;
+    }
+}
