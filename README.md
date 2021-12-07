@@ -1,21 +1,21 @@
-#MAGOSO ENTERPRISES
+# MAGOSO ENTERPRISES
 ---
-##DESCRIPTION
+## DESCRIPTION
 ----
 
 
-##PROJECT LINK
+## PROJECT LINK
 You can view the live Project [here]()
 
 The Magoso Enterprise site was  officially  set to serve all our customers across all the entirely world.Our mainly objective is to provide clothing items, Accessories,laptopbags.handbags, and so many other more  products, Welcome all for our products at affordable prices and discounts on purchase.  
 
-###PROJECTS SCREENSHOT
+### PROJECTS SCREENSHOT
 ---
 ![Websites top section](public/images/ecommer1.png)
 ![Websites Slider section](public/images/ecommerce2.png)
 ![Website categoryItem Section](public/images/ecommerce3.png)
 
-##SETUP AND INSTALLATION
+## SETUP AND INSTALLATION
 ---
 
 To run this  on your computer do the folllowing;
@@ -30,7 +30,7 @@ in VS Code use ```Code```
 
 - Run ```npm Start```
 
-##TECHNOLOGIES
+## TECHNOLOGIES
 ---
 - Html:
 - Material UI:v5.1.0
@@ -41,14 +41,14 @@ in VS Code use ```Code```
 - React-router-dom:v6.0.2
 
 
-##KNOWN BUGS
+## KNOWN BUGS
 Make sure you use the LTS version of node
 
-##LICENSES
+## LICENSES
 ---
 MIT License
 
-Copyright (c)[2021] **Evans Odhiambo**
+Copyright (c)2021 **Evans Odhiambo**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -68,11 +68,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-##CONTACT INFORMATION
+## CONTACT INFORMATION
 ---
  Incase of Querries you reach on Email evansodhis491@gmail.com
 
-##Author
+## Author
 ---
 Evans Odhiambo
 
