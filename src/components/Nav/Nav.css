@@ -12,7 +12,13 @@
     border:solid 1px grey;
     padding: .2em .4em;
     border-radius: 5px;
+   
 }
+.search-container input{
+    border: none;
+    outline: none;
+}
+
 .input{
     border: none;
     outline: none;
@@ -52,3 +58,30 @@
     gap: 1em;
     list-style-type: none;
 }
+
+/*media querries */
+
+@media (max-width:810px),(max-width:414px){
+    .prise{
+        font-size: 1rem;
+   }
+   .language{
+       display: none;
+   }
+}
+
+
+
+@media (max-width:414px),(max-width:810px){
+    .Nav-wrapper{
+        width: 100%;
+    }
+    .prise{
+        font-size: .8rem;
+    }
+    .input-search{
+        width: 50%;
+    }
+    
+}
+

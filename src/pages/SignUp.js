@@ -20,7 +20,11 @@ const SignUp=()=>{
         setConfirmPassword(putPassword)
     }
 
-    
+    const renderIcon=()=>{
+        if(confirmPassword!==""){
+            return Password===confirmPassword ? < CheckOutlinedIcon style={{color:"green"}}/>:<ClearOutlinedIcon style={{color:"red"}} />
+        }
+    }
 
 
     return(
@@ -40,16 +44,16 @@ const SignUp=()=>{
             </div>
             <div>
             <label>Password:</label>
-            <input onChange={onchangePassword}type="text" placeholder="Passsword" />
+            <input onChange={onchangePassword}type="text" type="password"  placeholder="Passsword" />
             </div>
 
             <div>
-                {Password===confirmPassword ? < CheckOutlinedIcon style={{color:"green"}}/>:<ClearOutlinedIcon style={{color:"red"}} />}
+                {renderIcon()}
                 </div>
 
             <div>
             <label>Confirm Password:</label>
-            <input onChange={onClickPassword} type="text" placeholder="Confirm Password" />
+            <input onChange={onClickPassword} type="text" type="password" placeholder="Confirm Password" />
             </div>
             <div className="terms">
                 <div>

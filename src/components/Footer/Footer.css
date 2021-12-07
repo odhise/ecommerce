@@ -97,3 +97,47 @@
 .content-payment{
     gap: 2em;
 }
+
+/*media querries */
+@media (max-width:810px),(max-width:414px){
+.footer-container{
+    flex-wrap: wrap;
+    width: 100%;
+}
+.Enterprise{
+    width: 50%;
+    flex: none;
+}
+.Enterprise p{
+    font-size: 1rem;
+}
+.location-link{
+    width: 50%;
+    flex: none;  
+}
+.location-link  ul li{
+    font-size: 1rem;
+}
+
+.cart{
+    width: 50%;
+    
+}
+.cart ul li{
+    font-size: 1rem;
+}
+.contact-point{
+    width: 50%;
+    flex: none;
+}
+.contact-point h3{
+    font-size: 1.3rem;
+}
+.footer-container h1{
+    font-size: 1.5rem;
+}
+.contact-point p{
+    font-size: 1rem;
+}
+
+}

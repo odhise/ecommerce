@@ -12,13 +12,13 @@ const Login=()=>{
     return(
         <div className="login-container">
 
-            <div className="img-container">
+            <div className="img-container2">
                 <div className="img-contents">
                     <div>
- <h2>WELCOME TO</h2>
+ <h3>WELCOME TO</h3>
  </div>
  <div>
- <h3>Magoso Enterprises.</h3>
+ <h2>Magoso Enterprises.</h2>
  </div>
  <div>
  <p>The home of Reliable Shopping</p>
@@ -33,18 +33,21 @@ const Login=()=>{
             <h1>LOGIN</h1>
             </div>
             <div className="inputs">
-          <div className="products">
+          <div className="products input-container">
              
-    <input type="text" placeholder=""  className="Email"/>
-    <lebel className="label">Email</lebel>
+    <input type="text" placeholder="Email"  className="email input"/>
+    <div className="input-border"></div>
+    <label className="label-input">Email</label>
 
-   
         </div>
-    <div className="visibility">
-        <div>
 
-    <input type={showPass ? "text":"password"} placeholder=""  className="password" />
-    <label className="label-word">Password</label>
+<div className="password-input">
+    <div className="visibility">
+        <div className="input-container">
+
+    <input type={showPass ? "text":"password"}  placeholder="Password"  className="password input" />
+    <div className="input-border"></div>
+    <label className="label-input">Password</label>
 
 
     </div>
@@ -53,6 +56,8 @@ const Login=()=>{
    }
 
    </div>
+   </div>
+   
    </div>
    
    </div>

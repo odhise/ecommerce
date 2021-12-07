@@ -6,6 +6,7 @@ import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import Badge from '@mui/material/Badge';
 import MailIcon from '@mui/icons-material/Mail';
 import LocalMallOutlinedIcon from '@mui/icons-material/LocalMallOutlined';
+import { Link } from "react-router-dom";
 
 const Nav=()=>{
     return(
@@ -15,7 +16,7 @@ const Nav=()=>{
 
 <div className="search-container">
 
-<input className="input" type="text" placeholder="search"></input>
+<input className="input-search" type="text" placeholder="search"></input>
 < SearchOutlinedIcon />
 </div>
 
@@ -27,17 +28,17 @@ const Nav=()=>{
     
     <ul className="list">
         <div>
-        <li> <a href="#">LOGIN </a></li>
+        <li> <Link to="/Login">LOGIN </Link></li>
         </div>
         <div>
 
-       <li> <a href="#">Register</a></li>
+       <li> <Link to="/SignUp">Register</Link></li>
         </div>
 
         <div>
-    <Badge badgeContent={4} color="secondary">
+    <Link to="/Cart"><Badge badgeContent={4} color="secondary">
         <LocalMallOutlinedIcon color="action" />
-      </Badge>
+      </Badge></Link>
       </div>
     </ul>
   

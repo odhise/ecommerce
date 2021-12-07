@@ -6,6 +6,7 @@ import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlin
 
 
 const SingleProductPage=()=>{
+    
 const [Number,setNumber]=useState(0);
 const increase=()=>{
     if(Number<100){

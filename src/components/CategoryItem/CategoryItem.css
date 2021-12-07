@@ -36,3 +36,16 @@ height: 100vh;
     font-size: 1rem;
 
 }
+
+
+/*media querries */
+@media (max-width:810px),(max-width:414px){
+    .category-info h1{
+        font-size: 1.5rem;
+    }
+    .category-item img{
+        flex-wrap: wrap;
+        width: 100%;
+    
+    }
+}

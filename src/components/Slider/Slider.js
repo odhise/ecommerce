@@ -45,7 +45,7 @@ if(direction==="left"){
     <div className="slide-content">
     <h2>{slide.title}</h2>
         <p>{slide.desc}</p>
-        <button className="btn" >Buy Now</button>
+        <button className="btn-slide" >Buy Now</button>
     </div>
 
 </div>

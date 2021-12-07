@@ -6,7 +6,7 @@
     background-color:white;
     margin: 2em 4em;  
 }
-.img-container{
+.img-container2{
     background:linear-gradient(rgba(59,119,121,0.8),rgba(50,112,114,0.8)),url("../Images/odhisphoto.jpeg");
     background-position: center center;
     background-repeat:no-repeat;
@@ -39,38 +39,81 @@
     margin-bottom: 2em;
     
 }
-.Email{
-    margin: 2em 0;
-    border: none;
-    outline: none;
-    border-bottom:4px solid cadetblue ;
-    width: 800px;    
-}
-.password{
-    border: none;
-    border-bottom: 4px solid grey;
-    outline: none;
-    width: 800px;
-     
-}
+
 
 .visibility{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    
+}
+
+.password-input {
+    width: 100%;
 }
 .inputs{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 0 1em;
+    
+}
+
+.input-border {
+    height: 3px;
+    background-color: grey;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+    transition: all .5s ease;
+    margin: 1em 0;
+}
+
+.input:focus ~ .label-input {
+    position: absolute;
+    left: 0;
+    top: -10px;
+visibility: visible;
+    
+
+}
+
+.icon {
+    position: absolute;
+    top: 34%;
+    left: 96%;
+    height: fit-content;
+}
+
+.input:focus ~ .input-border{
+background-color: teal;
+}
+
+.label-input {
+    position: absolute;
+    visibility: hidden;
+}
+
+.input{
+    margin-top: 2em;
+    width: 100%;
+    padding: 1em;
 }
 .btn{
     padding: 1em  15em;
-    width: 800px;
+    width: 100%;
     border-radius: 2px;
     background-color:#3F7173;
     color: white;
     font-size: 1rem;
     box-shadow: none;
+    margin-bottom: 1em;
+    
 }
 .check{
     display: flex;
@@ -112,31 +155,25 @@
 .products{
     position: relative;
 }
-.label{
-    position: absolute;
-    top: 10px;
-    left:10px ;
-    transition: all .5s  ease;
 
-}
-.Email:focus~.label{
-    top: 0;
-    left: 0;
-    visibility: visible;
-    color: cadetblue;
-}
-.visibility{
-    position: relative;
-}
-.label-word{
-    position: absolute;
-    top: 20px;
-    left: 10px;
-    transition: all .5s  ease;
-}
-.password:focus~.label-word{
-    top: 0;
-    left: 0;
-    visibility: visible;
-    color: grey;
+
+
+
+
+
+@media (max-width:810px),(max-width:414px){
+    .img-container2{
+        display: none;
+    }
+    .check p{
+        font-size: 1rem;
+    }
+    .login-container h1{
+        font-size: 2rem;
+    }
+    .login-container h5{
+        font-size: 1.5rem;
+    }
+    
+    
 }
