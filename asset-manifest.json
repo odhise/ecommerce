@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/ecommerce/static/css/main.09b154a2.chunk.css",
-    "main.js": "/ecommerce/static/js/main.8ce76115.chunk.js",
-    "main.js.map": "/ecommerce/static/js/main.8ce76115.chunk.js.map",
+    "main.js": "/ecommerce/static/js/main.dcb561ff.chunk.js",
+    "main.js.map": "/ecommerce/static/js/main.dcb561ff.chunk.js.map",
     "runtime-main.js": "/ecommerce/static/js/runtime-main.ee40b3dc.js",
     "runtime-main.js.map": "/ecommerce/static/js/runtime-main.ee40b3dc.js.map",
-    "static/js/2.fa8cf149.chunk.js": "/ecommerce/static/js/2.fa8cf149.chunk.js",
-    "static/js/2.fa8cf149.chunk.js.map": "/ecommerce/static/js/2.fa8cf149.chunk.js.map",
+    "static/js/2.b1f38c5d.chunk.js": "/ecommerce/static/js/2.b1f38c5d.chunk.js",
+    "static/js/2.b1f38c5d.chunk.js.map": "/ecommerce/static/js/2.b1f38c5d.chunk.js.map",
     "index.html": "/ecommerce/index.html",
-    "precache-manifest.3620b289c2da46a0b67e44fc2fe5f6a4.js": "/ecommerce/precache-manifest.3620b289c2da46a0b67e44fc2fe5f6a4.js",
+    "precache-manifest.9a384268edd72192dccc8436f9134174.js": "/ecommerce/precache-manifest.9a384268edd72192dccc8436f9134174.js",
     "service-worker.js": "/ecommerce/service-worker.js",
     "static/css/main.09b154a2.chunk.css.map": "/ecommerce/static/css/main.09b154a2.chunk.css.map",
-    "static/js/2.fa8cf149.chunk.js.LICENSE.txt": "/ecommerce/static/js/2.fa8cf149.chunk.js.LICENSE.txt",
+    "static/js/2.b1f38c5d.chunk.js.LICENSE.txt": "/ecommerce/static/js/2.b1f38c5d.chunk.js.LICENSE.txt",
     "static/media/Login.css": "/ecommerce/static/media/odhisphoto.ce6a33d1.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.ee40b3dc.js",
-    "static/js/2.fa8cf149.chunk.js",
+    "static/js/2.b1f38c5d.chunk.js",
     "static/css/main.09b154a2.chunk.css",
-    "static/js/main.8ce76115.chunk.js"
+    "static/js/main.dcb561ff.chunk.js"
   ]
 }
